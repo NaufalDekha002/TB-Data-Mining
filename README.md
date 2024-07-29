@@ -4,6 +4,9 @@
 1. M. Hadi Syatiri
 2. Naufal Dekha Widana
 
+## Note:
+File Tugbes Bisa diakses pada Tugbes Data Mining Kelompok 5
+
 ## Pendahuluan
 - **Latar Belakang**: Perkembangan teknologi informasi telah menghasilkan pertumbuhan data yang besar dalam basis data. Data mining menjadi metode penting untuk mengubah data ini menjadi informasi berharga yang mendukung pengambilan keputusan bisnis. Association Rule Mining adalah teknik data mining yang menemukan hubungan menarik antar item dalam basis data transaksi, berguna dalam berbagai aplikasi seperti analisis keranjang belanja dan deteksi penipuan. Dua algoritma yang sering digunakan untuk ini adalah Apriori dan FP-Growth.
 - **Tujuan**: Proyek ini bertujuan memberikan panduan komprehensif tentang perbandingan algoritma Apriori dan FP-Growth, dengan fokus khusus pada kinerja waktu komputasi.
