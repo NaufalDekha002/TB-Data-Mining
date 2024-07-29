@@ -5,11 +5,13 @@
 2. Naufal Dekha Widana
 
 ## Pendahuluan
-### Pengenalan Algoritma Apriori dan Fp-Growth
 - **Latar Belakang**: Perkembangan teknologi informasi telah menghasilkan pertumbuhan data yang besar dalam basis data. Data mining menjadi metode penting untuk mengubah data ini menjadi informasi berharga yang mendukung pengambilan keputusan bisnis. Association Rule Mining adalah teknik data mining yang menemukan hubungan menarik antar item dalam basis data transaksi, berguna dalam berbagai aplikasi seperti analisis keranjang belanja dan deteksi penipuan. Dua algoritma yang sering digunakan untuk ini adalah Apriori dan FP-Growth.
 - **Tujuan**: Proyek ini bertujuan memberikan panduan komprehensif tentang perbandingan algoritma Apriori dan FP-Growth, dengan fokus khusus pada kinerja waktu komputasi.
 - **Manfaat**: Proyek ini dirancang untuk memberikan wawasan mendalam tentang perbandingan algoritma Apriori dan FP-Growth, membantu praktisi data memilih algoritma yang paling efisien dari segi waktu komputasi, dan mengoptimalkan proses data mining untuk mempercepat pengambilan keputusan berbasis data.
 
-### Pengenalan Algoritma Apriori dan Fp-Growth
-- **Algoritma Apriori**: Algoritma Apriori adalah suatu algoritma dasar yang diusulkan oleh Agrawal & Srikant pada tahun 1994 untuk penentuan frequent itemsets untuk aturan asosiasi boolean. Algoritma apriori termasuk jenis aturan asosiasi pada data mining. Aturan yang menyatakan asosiasi antara beberapa atribut sering disebut affinity analysis atau market basket analysis.
-- **Algoritma FP-Growth**: Algoritma FP-Growth merupakan salah satu alternatife algoritma yang cukup efektif untuk mencari himpunan data yang paling sering muncul (frequent itemset) dalam sebuah kumpulan data yang besar. Algoritma FP-Growth merupakan algoritma Association Rules yang cukup sering dipakai.
+## Tahap Analisis
+Proses analisis menggunakan metodologi IBM Data Science
+### 1. Understanding the Business
+Pada tahap ini, tujuan utama adalah memahami masalah yang ingin dipecahkan, yaitu mengetahui perbandingan antara algoritma Apriori dan FP-Growth. Dengan memahami masalah ini, kita dapat menetapkan tujuan yang jelas untuk proyek data science dan memastikan bahwa semua langkah yang diambil akan mengarah pada penyelesaian masalah tersebut.
+### 2. Analytic Approach
+Langkah ini melibatkan perumusan pendekatan analitis untuk mencapai tujuan. Pendekatan analitis yang dipilih adalah menggunakan algoritma Association Rule Mining, yaitu Apriori dan FP-Growth, untuk membandingkan efisiensi eksekusi waktu komputasi antara kedua algoritma tersebut.
