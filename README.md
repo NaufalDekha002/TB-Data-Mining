@@ -15,3 +15,9 @@ Proses analisis menggunakan metodologi IBM Data Science
 Pada tahap ini, tujuan utama adalah memahami masalah yang ingin dipecahkan, yaitu mengetahui perbandingan antara algoritma Apriori dan FP-Growth. Dengan memahami masalah ini, kita dapat menetapkan tujuan yang jelas untuk proyek data science dan memastikan bahwa semua langkah yang diambil akan mengarah pada penyelesaian masalah tersebut.
 ### 2. Analytic Approach
 Langkah ini melibatkan perumusan pendekatan analitis untuk mencapai tujuan. Pendekatan analitis yang dipilih adalah menggunakan algoritma Association Rule Mining, yaitu Apriori dan FP-Growth, untuk membandingkan efisiensi eksekusi waktu komputasi antara kedua algoritma tersebut.
+### 3. Data Requirements
+Pada tahap ini, kita akan menentukan data yang diperlukan untuk analisis. Data yang diperlukan meliputi:
+
+Member_number
+Date
+ItemDescription
