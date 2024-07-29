@@ -1,6 +1,6 @@
 # PerbandinganAlgoritmaApriori&Fp-Growth
 
 ## Angota Kelompok:
-M. Hadi Syatiri
-Naufal Dekha Widana
+1. M. Hadi Syatiri
+2. Naufal Dekha Widana
 
