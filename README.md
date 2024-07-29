@@ -20,3 +20,22 @@ Pada tahap ini, kita akan menentukan data yang diperlukan untuk analisis. Data y
 1. Member_number
 2. Date
 3. ItemDescription
+### 4. Data Collection
+Pada tahap ini, dilakukan proses mengumpulkan data yang telah diidentifikasi. Data ini bisa berasal dari sistem point of sale (POS) supermarket yang mencatat setiap transaksi penjualan. Data ini harus lengkap dan akurat untuk menghasilkan analisis yang berguna.
+### 5. Data Understanding
+Setelah data dikumpulkan, tahap berikutnya adalah memahami data tersebut. Data yang telah dikumpulkan dianalisis untuk memahami struktur dan kualitasnya. Ini termasuk:
+1. Mengumpulkan data mentah dari Kaggle dalam bentuk file CSV.
+2. Melihat beberapa baris pertama dari dataset untuk memahami struktur kolom dan nilai.
+3. Melakukan visualisasi data untuk eksplorasi lebih lanjut.
+### 6. Data Preparation
+Beberapa langkah dalam persiapan data meliputi:
+1. Encoding: Mengubah data transaksi ke dalam format one hot encoding.
+2. Mengonversi data transaksi menjadi format yang sesuai untuk algoritma Apriori dan FP-Growth.
+### 7. Modeling
+Tahap modeling adalah inti dari proses data science. Pada tahap ini, algoritma Apriori dan FP-Growth digunakan untuk analisis asosiasi. Tahap ini melibatkan:
+1. Menjalankan algoritma untuk menemukan frequent itemsets dan association rules.
+2. Menginterpretasikan hasil untuk menemukan pola menarik.
+### 8. Evaluation
+Setelah mendapatkan hasil dari model, langkah penting berikutnya adalah mengevaluasi seberapa efektifnya. Pada tahap ini, akan diukur waktu eksekusi dari algoritma Apriori dan FP-Growth. Selanjutnya, kami akan membandingkan keduanya untuk mengidentifikasi kelebihan dan kekurangan masing-masing dalam hal efisiensi waktu eksekusi.
+### 9. Deployment
+Perbandingan antara Apriori dan FP-Growth dalam hal deployment akan menyoroti bagaimana masing-masing algoritma berperforma dalam lingkungan produksi nyata. FP-Growth cenderung lebih diunggulkan karena kemampuannya dalam menangani dataset besar dengan lebih efisien daripada Apriori, yang memerlukan lebih banyak waktu eksekusi karena pemindaian database yang berulang. Oleh karena itu, dalam konteks deployment, FP-Growth bisa menjadi pilihan yang lebih baik jika skalabilitas dan efisiensi waktu menjadi faktor kunci.
