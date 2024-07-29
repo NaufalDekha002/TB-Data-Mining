@@ -17,7 +17,6 @@ Pada tahap ini, tujuan utama adalah memahami masalah yang ingin dipecahkan, yait
 Langkah ini melibatkan perumusan pendekatan analitis untuk mencapai tujuan. Pendekatan analitis yang dipilih adalah menggunakan algoritma Association Rule Mining, yaitu Apriori dan FP-Growth, untuk membandingkan efisiensi eksekusi waktu komputasi antara kedua algoritma tersebut.
 ### 3. Data Requirements
 Pada tahap ini, kita akan menentukan data yang diperlukan untuk analisis. Data yang diperlukan meliputi:
-
-Member_number
-Date
-ItemDescription
+1. Member_number
+2. Date
+3. ItemDescription
